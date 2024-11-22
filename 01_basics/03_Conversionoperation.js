@@ -41,4 +41,45 @@ let booleamIsLoggedIn=Boolean(IsLoggedIn)
 let someNumber=33
 
 let StringNumber=String(someNumber)
-console.table([StringNumber,typeof(StringNumber)]);
+//console.table([StringNumber,typeof(StringNumber)]);
+
+
+// ******************************************************************* Operations ***************************************************************
+
+let value=3
+let negval=-value
+// console.log(negval)
+
+//basic operation
+
+// console.table([2+2,2-2,2*2,2**3,2/3,2%3])
+
+let str1="Hello"
+let str2=" Tanmay"
+let str3=str1+str2
+//console.log(str3);
+
+
+//noticabel output
+/*
+console.log("1"+2);
+console.log(2+"1")
+console.log("1"+2+2)
+str4="1"+2+2
+console.log(typeof(str4));
+
+console.log(1+2+"2") */ //adds 2 and 1 first
+
+//console.log(true); //output is true
+
+//but when we write +true value is 1
+//console.log(+true);
+//console.log(+"");
+
+
+let num1, num2, num3 
+num1=num2=num3=2+2
+
+let gameCounter=100
+gameCounter++;
+console.log(gameCounter)
